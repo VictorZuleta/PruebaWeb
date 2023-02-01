@@ -31,6 +31,8 @@ namespace PresentacionWeb.Controllers
             return View();
         }
 
+
+
         // POST: Usuario/Create
         [HttpPost]
         public ActionResult Create(UsuarioModel obj)
