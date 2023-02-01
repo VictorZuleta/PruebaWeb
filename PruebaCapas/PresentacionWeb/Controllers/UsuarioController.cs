@@ -17,6 +17,8 @@ namespace PresentacionWeb.Controllers
             return View(serviceUs.getUsuarioAll());
         }
 
+
+
         // GET: Usuario/Details/5
         public ActionResult Details(string id)
         {
